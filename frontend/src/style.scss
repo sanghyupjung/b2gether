@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+body {
+    background: skyblue;
+    color:white;
+    font-family: 'Nanum Pen Script', cursive;
+    // font-size: x-large;
+    font-size: 1.5em;
+    width: 64%;
+    // height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color:white;
+    // &:active {
+    //     color:red;
+    // }
+    // &:hover {
+    //     color:black;
+    // }
+}
+
+.login {
+    width: 50%;
+    // height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loginb2gether {
+    // font-size: xx-large;
+    font-size: 3em;
+    text-align: center;
+}
+
+.logintitle {
+    font-size: 2em;
+    text-align: center;
+}
+
+.logincontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.textaligncenter {
+    text-align: center;
+}
+
+.loginchoice {
+    text-align: center;
+}
+
+.titleb2gether {
+    // font-size: xx-large;
+    font-size: 3em;
+    text-align: center;
+}
+
+.keepleft {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.keepright {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.storycontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.story {
+    color: rgb(54, 69, 79);
+}
+
+.userandstorydate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.writeyourstory {
+    display: flex;
+    justify-content: center;
+}
+
+.uploadtodolist {
+    display: flex;
+}
+
+.currenttodolist {
+    text-align: center;
+}
+
+.inputtodolist {
+    flex-direction: column;
+}
+
+.uploadyourtodolist {
+    text-align: center;
+}
+
+.uploadyourjob {
+    // justify-content: flex-end;
+    text-align: end;
+}
+
+.test-layout{
+    // width: 100vw;
+    height: 80vh;
+    // border: 1px solid black;
+}
+/* this test-layout class for test it will be terminated */
+ 
+.RCA-app-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+ 
+.RCA-calendar-container{
+    flex-grow: 1;
+    background-color: rgb(27, 172, 136);
+}
+
+.RCA-header-container{
+    flex-basis: 50px;
+    background-color: rgb(83, 164, 231);
+    display: flex;
+    color: black;
+}
+ 
+.move-button{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+ 
+.icon{
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+ 
+.left-img{
+    background-image : url('./style/left.png');
+}
+ 
+.right-img{
+    background-image: url('./style/right.png');
+}
+ 
+.RCA-header-middle{
+    line-height: 50px;
+}
+ 
+.RCA-header-calendarYM{
+    box-sizing: border-box;
+    padding-left: 5px;
+    flex-grow: 1;
+}
+ 
+.RCA-header-buttons{
+    flex-basis: 120px;
+    padding-left: 0;
+    padding-top: 4px;
+    display: block;
+    list-style-type: none;
+    margin: 0;
+}
+ 
+.RCA-header-buttons li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.RCA-calendar-date-header{
+    display: flex;
+    height: 50px;
+    background-color: green;
+}
+ 
+.RCA-calendar-date-component{
+    width: 14.2857143%;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(107, 107, 108);
+    border: 0.1px solid white;
+    font-size : 1.5rem;
+    line-height: 50px;
+}
+ 
+.RCA-calendar-date-component:nth-child(odd){
+    border-left : none;
+    border-right: none;
+}
+ 
+.date-weekday{
+    color : rgba(255, 255, 255, 0.603)
+}
+ 
+.date-sun{
+    color: tomato;
+}
+ 
+.date-sat{
+    color: deepskyblue;
+}
+
+.RCA-calendar-day-container{
+    flex-grow: 1;
+    display : flex;
+    flex-wrap: wrap;
+}
+ 
+.RCA-calendar-day{
+    box-sizing: border-box;
+    position: relative;
+    flex-basis: 14.2857143%;
+    border: 0.1px solid white;
+    border-top: none;
+    background-color: rgb(225,224,224);
+}
+ 
+.RCA-calendar-week{
+    display: flex;
+    flex-grow: 1;
+    height: 120px;
+}
+ 
+.RCA-calendar-day:nth-child(odd){
+    border-left : none;
+    border-right: none;
+}
+ 
+.RCA-calendar-day-label{
+    display: inline-block;
+    font-size: 1.2rem;
+    position: absolute;
+    text-align: center;
+    line-height: 25px;
+    top : 5px;
+    right: 5px;
+    cursor: pointer;
+}
+ 
+.date-weekday-label{
+    color : rgb(71, 71, 71)
+}
+
+.selected{
+    background-color: rgb(49,50,50);
+}
+
