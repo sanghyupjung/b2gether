@@ -58,7 +58,7 @@ class CheckUser(generics.RetrieveAPIView):
             for i in range(length):
                 auth_code += random.choice(string_pool)
             email = EmailMessage('B2GETHER 비밀번호 변경 요청 인증', 'B2GETHER 비밀번호 변경 요청 인증 번호는 ' + auth_code + ' 입니다!', from_email='sanghyupjungxav2@gmail.com', to=[email_data])
-            # email.send()
+            email.send()
             serializer = ShowUserNameSerializer(user.first())
             # print(serializer.data)
             # print(Response(serializer.data))
