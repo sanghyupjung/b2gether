@@ -130,7 +130,7 @@ AUTH_USER_MODEL = "accounts.User"
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    "http://3.36.24.56/",
+    "http://3.36.24.56",
 ]
 
 REST_FRAMEWORK = {
