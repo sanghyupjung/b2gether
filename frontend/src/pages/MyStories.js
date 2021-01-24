@@ -49,7 +49,8 @@ const MyStories = () => {
 
     const getStories = () => {
         axios
-        .get("http://localhost:8000/accounts/story/")
+        // .get("http://localhost:8000/accounts/story/")
+        .get("http://15.165.153.177/accounts/story/")
         .then(({data}) => {
             // console.log(data);
             const reverse_data = data.reverse();

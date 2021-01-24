@@ -9,7 +9,8 @@ class CurrentTodolist extends Component {
     getTodolists = () => {
         axios
         // .get("accounts/todolist/")
-        .get("http://localhost:8000/accounts/todolist/")
+        // .get("http://localhost:8000/accounts/todolist/")
+        .get("http://15.165.153.177/accounts/todolist/")
         .then(({data}) => {
             // console.log(data);
             this.setState({
