@@ -103,21 +103,23 @@
 
 
 9. 달력 페이지
-![16](https://user-images.githubusercontent.com/54101618/104118046-5654c680-5369-11eb-94b7-fa5e4b38026f.JPG)
-![17](https://user-images.githubusercontent.com/54101618/104118049-5ce33e00-5369-11eb-92f5-0439959521db.JPG)
+![18](https://user-images.githubusercontent.com/54101618/105785005-44a42d80-5fbd-11eb-9da4-b41082a21bf5.JPG)
+![19](https://user-images.githubusercontent.com/54101618/105785025-4ec62c00-5fbd-11eb-9438-5f9044af2148.JPG)
 -	달력 페이지입니다.
 -	http://localhost:3000/(해당_계정_ID)/mycalendar
 -	My Stories 를 클릭하면 게시물 페이지로 넘어가고 My Calendar 를 클릭하면 달력 페이지로 넘어갑니다.
--	달력에 투두리스트를 작성할 수 있게 할 것입니다.
+- 달력에서 날짜를 클릭하면 해달 날짜의 투두리스트 작성 페이지로 넘어갑니다.
 
 
 10. 투두리스트 작성 페이지
-![18](https://user-images.githubusercontent.com/54101618/104118643-ed238200-536d-11eb-929e-69928c44cc76.JPG)
+![20](https://user-images.githubusercontent.com/54101618/105786070-ad8ca500-5fbf-11eb-8f6d-275493b6d50a.JPG)
 - 투두리스트 작성 페이지입니다.
 - http://localhost:3000/makeTodolist/(해당_날짜)
 -	My Stories 를 클릭하면 게시물 페이지로 넘어가고 My Calendar 를 클릭하면 달력 페이지로 넘어갑니다.
--	Todolist 부분에 알맞은 투두리스트들을 추가할 수 있습니다.
-![19](https://user-images.githubusercontent.com/54101618/104118748-89e61f80-536e-11eb-9fcb-4f46a1e60442.JPG)
--	Upload Your Job 버튼을 클릭하면 게시물 작성이 완료되게 할 것입니다.
+-	Upload Yout Todolist 부분에 알맞은 투두리스트들을 추가할 수 있습니다.
+![21](https://user-images.githubusercontent.com/54101618/105786082-b41b1c80-5fbf-11eb-8f39-e2db0954f657.JPG)
+- 칸에 투두리스트를 입력하고 ADD 버튼을 클릭하면 투두리스트가 추가되고 Upload Your Job 버튼을 클릭하면 해달 날짜에 투두리스트들이 업로드됩니다.
+![22](https://user-images.githubusercontent.com/54101618/105786105-c1380b80-5fbf-11eb-8e28-839f3b01767d.JPG)
+-	Your Todolist is... 부분에 해당 날짜의 투두리스트를 확인할 수 있습니다.
 
 
