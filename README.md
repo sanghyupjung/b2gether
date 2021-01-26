@@ -80,22 +80,26 @@
 
 
 7. 게시물 페이지
-![14](https://user-images.githubusercontent.com/54101618/104118039-43da8d00-5369-11eb-95e3-2eb486a49b61.JPG)
+![14](https://user-images.githubusercontent.com/54101618/105784459-330e5600-5fbc-11eb-8a66-0cd26c6baeb1.JPG)
 -	게시물 페이지입니다.
 -	http://localhost:3000/(해당_계정_ID)/mystories
--	My Calendar 를 클릭하면 달력 페이지로 넘어갑니다.
+-	My Stories 를 클릭하면 게시물 페이지로 넘어가고 My Calendar 를 클릭하면 달력 페이지로 넘어갑니다.
 -	Write your story 버튼을 클릭하면 게시물 작성 페이지로 넘어갑니다.
--	게시물을 작성할 때 마다 이 페이지에서 해당 계정의 게시물들이 올려질 수 있게 할 것입니다.
+-	게시물을 작성하면 메인 페이지에서 해당 계정의 게시물이 업로드됩니다.
+- 게시물 페이지에서도 해당 계정의 게시물들을 볼 수 있게 할 것입니다.
 
 
 8. 게시물 작성 페이지
-![15](https://user-images.githubusercontent.com/54101618/104118041-4b019b00-5369-11eb-82df-263eba60da82.JPG)
+![15](https://user-images.githubusercontent.com/54101618/105784645-8bddee80-5fbc-11eb-8e01-ea56e04d9079.JPG)
 -	게시물 작성 페이지입니다.
--	http://localhost:3000/(해당_계정_ID)/writeStory
--	My Calendar 를 클릭하면 달력 페이지로 넘어갑니다.
--	Story 부분에 제목과 내용을 입력할 수 있게 할 것입니다.
--	Hash Tag 부분에 알맞은 해시태그들을 추가할 수 있게 할 것입니다.
--	Create your story 버튼을 클릭하면 게시물 작성이 완료되게 할 것입니다.
+-	http://localhost:3000/writeStory
+-	My Stories 를 클릭하면 게시물 페이지로 넘어가고 My Calendar 를 클릭하면 달력 페이지로 넘어갑니다.
+-	Story 부분에서 Your Title 에 제목을, Your Story 에 내용을 입력합니다.
+-	추후에 Hash Tag 를 넣는 기능을 추가할 것입니다.
+![16](https://user-images.githubusercontent.com/54101618/105784660-9304fc80-5fbc-11eb-9dab-1489d430dcab.JPG)
+-	Create your story 버튼을 클릭하면 게시물 작성이 완료됩니다.
+![17](https://user-images.githubusercontent.com/54101618/105784678-9ac4a100-5fbc-11eb-8d98-1e1f430a515b.JPG)
+- 메인 페이지로 가면 작성된 게시물가 업로드된 것을 볼 수 있습니다.
 
 
 9. 달력 페이지
@@ -103,7 +107,7 @@
 ![17](https://user-images.githubusercontent.com/54101618/104118049-5ce33e00-5369-11eb-92f5-0439959521db.JPG)
 -	달력 페이지입니다.
 -	http://localhost:3000/(해당_계정_ID)/mycalendar
--	My Stories 를 클릭하면 게시물 페이지로 넘어갑니다.
+-	My Stories 를 클릭하면 게시물 페이지로 넘어가고 My Calendar 를 클릭하면 달력 페이지로 넘어갑니다.
 -	달력에 투두리스트를 작성할 수 있게 할 것입니다.
 
 
@@ -111,7 +115,7 @@
 ![18](https://user-images.githubusercontent.com/54101618/104118643-ed238200-536d-11eb-929e-69928c44cc76.JPG)
 - 투두리스트 작성 페이지입니다.
 - http://localhost:3000/makeTodolist/(해당_날짜)
--	My Stories 를 클릭하면 게시물 페이지로 넘어갑니다.
+-	My Stories 를 클릭하면 게시물 페이지로 넘어가고 My Calendar 를 클릭하면 달력 페이지로 넘어갑니다.
 -	Todolist 부분에 알맞은 투두리스트들을 추가할 수 있습니다.
 ![19](https://user-images.githubusercontent.com/54101618/104118748-89e61f80-536e-11eb-9fcb-4f46a1e60442.JPG)
 -	Upload Your Job 버튼을 클릭하면 게시물 작성이 완료되게 할 것입니다.
